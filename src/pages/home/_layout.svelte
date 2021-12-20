@@ -90,7 +90,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    line-height: 10px;
     grid-area: ct;
   }
 
