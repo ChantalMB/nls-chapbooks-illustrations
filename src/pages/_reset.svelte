@@ -4,9 +4,9 @@
   import { url, isActive } from "@roxi/routify";
 
   const _urls = [
-    ["./home", "Home", "#7fc5bb"],
-    ["./explore", "Explore", "#0bf5cc"],
-    ["./paradata", "Paradata", "#a1fac3"],
+    ["./home", "Home", "#30303B"],
+    ["./explore", "Explore", "#30303B"],
+    ["./paradata", "Paradata", "#30303B"],
   ];
   $: urls = _urls.map(([path, name, color]) => ({
     name,
@@ -32,9 +32,9 @@
     overflow: auto;
   }
 
-  * :global(*) {
+  /* * :global(*) {
     text-align: center;
-  }
+  } */
   /* a {
     position: fixed;
     top: 0;

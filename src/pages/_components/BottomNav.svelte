@@ -22,7 +22,7 @@
 <style>
   nav {
     width: 100%;
-    background: white;
+    background: #676787;
     display: flex;
     position: fixed;
     bottom: 0;
@@ -34,7 +34,7 @@
     padding: 0 16px;
     line-height: 100%;
     font-weight: 500;
-    color: #aaa;
+    color: #d3c8b4;
     text-transform: uppercase;
     text-decoration: none;
     width: 100%;
@@ -45,11 +45,10 @@
     /* transition-delay: 0.05s */
   }
   a.active {
-    color: #fff;
+    color: #676787;
   }
   .overlay {
     position: absolute;
-    /* background: #555; */
     transition: 0.3s all;
     background: linear-gradient(
           rgba(0, 0, 0, 0.15), 
