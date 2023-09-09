@@ -33,7 +33,7 @@
               <a href="https://chantalmb.github.io/nls-chapbooks-pixplot/" target="_blank"><GoGraph /></a>
             </div>
             <div class="icon">
-              <a href="https://nls-chapbooks-illustrations.herokuapp.com/" target="_blank"><FaDatabase /></a>
+              <a href="https://nls-chapbooks-illustrations.vercel.app/" target="_blank"><FaDatabase /></a>
             </div>
             <div class="icon">
               <a href="https://github.com/ChantalMB/nls-chapbooks-illustrations" target="_blank"><FaGitAlt /></a>

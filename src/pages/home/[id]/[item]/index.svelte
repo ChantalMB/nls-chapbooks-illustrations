@@ -10,7 +10,7 @@
     let imgInfo = {};
 
     onMount(async () => {
-        let link = "https://nls-chapbooks-illustrations.herokuapp.com/nls-chapbooks-illustrations/or_nc_merged.json?_shape=array&_sort=rowid&img_file__exact=" + item;
+        let link = "https://nls-chapbooks-illustrations.vercel.app/nls-chapbooks-illustrations/or_nc_merged.json?_shape=array&_sort=rowid&img_file__exact=" + item;
         console.log(link)
         const response = await fetch(link);
         const d = await response.json();

@@ -23,9 +23,9 @@
     });
 
     function setLink() {
-      url_link = 'https://nls-chapbooks-illustrations.herokuapp.com/nls-chapbooks-illustrations/or_nc_merged.json?_sort=rowid&' + filter_1 + '__exact=';
+      url_link = 'https://nls-chapbooks-illustrations.vercel.app/nls-chapbooks-illustrations/or_nc_merged.json?_sort=rowid&' + filter_1 + '__exact=';
 
-      search_link = 'https://nls-chapbooks-illustrations.herokuapp.com/nls-chapbooks-illustrations/or_nc_merged.json?_shape=array&_sort=rowid&' + filter_1 + '__exact=';
+      search_link = 'https://nls-chapbooks-illustrations.vercel.app/nls-chapbooks-illustrations/or_nc_merged.json?_shape=array&_sort=rowid&' + filter_1 + '__exact=';
 
       if (filter_1 == "geo_city") {
         setFilter = $cities;
@@ -89,7 +89,7 @@
 
 <div style="text-align: center; margin-top: -8px; margin: 0 auto; width: 70%;">
     <h1 >Explore the Illustrations</h1>
-    <p>On this page, you may explore the illustrated pages of Scotland's chapbooks through filtering the metadata associated with each chapbook. Should you like to view the metadata in its original digitized format, the database which this page uses can be accessed <a href="https://nls-chapbooks-illustrations.herokuapp.com/">here</a>.</p>
+    <p>On this page, you may explore the illustrated pages of Scotland's chapbooks through filtering the metadata associated with each chapbook. Should you like to view the metadata in its original digitized format, the database which this page uses can be accessed <a href="https://nls-chapbooks-illustrations.vercel.app/">here</a>.</p>
 </div>
 
 <div class="pg_margin">
